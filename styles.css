@@ -1,0 +1,51 @@
+.carPic{
+    width: 100%;
+    background-color: rgba(200,100,0,.5);
+    background-blend-mode: multiply;
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+.bottomHeader{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.gray{
+    color: gray;
+}
+
+.lightgray{
+    color: lightgray;
+}
+
+.cpText{
+    font-size: 19px;
+}
+
+.rightTab{
+    text-align: center;
+    padding-right: 10%;
+}
+
+.leftTab{
+    text-align: center;
+    padding-left: 10%;
+}
+
+.thumbs{
+    width: 50%;
+}
+
+.rowInfo{
+    padding-bottom: 2%;
+}
+
+.footercontent{
+    width: 50px;
+    padding-left: 20px;
+}
