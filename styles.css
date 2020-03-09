@@ -1,12 +1,12 @@
 .carPic{
     width: 100%;
-    background-color: rgba(200,100,0,.5);
     background-blend-mode: multiply;
 }
 
 
 body{
     font-family: 'Lato', sans-serif;
+    background-color: #f0f0f0;
     
 }
 .bottomHeader{
@@ -39,6 +39,7 @@ body{
 
 .thumbs{
     width: 50%;
+    padding-top: 20px;
 }
 
 .rowInfo{
@@ -49,3 +50,53 @@ body{
     width: 50px;
     padding-left: 20px;
 }
+
+.requestAquote{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.bigThumb{
+    text-align: center;
+    width: 400px;
+    margin-top: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 55%;
+    text-align: center;
+    margin: 0px auto;
+
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {background-color: #d1d1d1;}
+
+  .center{
+      text-align: center;
+  }
+
+  .money{
+      text-align: right;
+  }
+
+  .moveFooter {
+      margin-bottom: 210px;
+  }
+
+  .buildingThumbs{
+      width: 350px;
+      padding-bottom: 20px;
+
+
+  }
+
+  .bold{
+      font-weight: bold;
+      color: red;
+  }
