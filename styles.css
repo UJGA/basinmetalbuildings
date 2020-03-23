@@ -100,3 +100,19 @@ table {
       font-weight: bold;
       color: red;
   }
+
+  .myForm{
+      text-align: center;
+      
+  }
+
+  .colors{
+      /* width: 30em; */
+      width: 90%;
+      
+      
+  }
+
+  .colorsText{
+      padding-top: 20px;
+  }
