@@ -13,6 +13,29 @@
     <title>Basin Buildings</title>
   </head>
   <body class="homeBody">
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v6.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="103242004399543">
+    </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Basin Buildings</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,10 +50,10 @@
               <a class="nav-link" href="carports.html">Carports</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="buildings.html">Buildings</a>
+              <a class="nav-link" href="buybyphoto.html">Buy By Photo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="quote.html">Get a Quote</a>
               </li>
           </ul>
         </div>
@@ -62,17 +85,15 @@
         </div>
         <div class="row rowInfo">
             <div class="col-md-6 leftTab">
-                <br><br><a href="buildings.html"><h6 class="gray">BUILDINGS</h6></a>
+                <br><br><a href="buildings.html"><h6 class="gray">BUY BY PHOTO</h6></a>
                 <p class="cpText">
-                    Metal Buildings are a great way to not only store<br>
-                    vehicles, equipment, and many ohters. <br>
-                    But also make great mancaves or shesheds
+                    Browse from our more popular models
                 
                 </p>
-                <a href="buildings.html"><button type="button" class="btn btn-secondary">Browse Buildings</button></a>
+                <a href="buybyphoto.html"><button type="button" class="btn btn-secondary">Buy By Photo</button></a>
             </div>
             <div class="col-md-6 rightTab">
-                <a href="buildings.html.html"><img class="thumbs" src="images/building.png" alt=""></a>
+                <a href="buybyphoto.html"><img class="thumbs" src="images/building.png" alt=""></a>
             </div>
         </div>
         <!-- <div class="row rowInfo">
@@ -94,6 +115,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 requestAquote">
+          <h6 class="gray">Know what you are looking for? <br>Request a quote today!</h6>
           <a href="quote.html"><button type="button" class="btn btn-secondary">Request a quote</button></a>
         </div>
       </div>

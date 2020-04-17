@@ -116,3 +116,15 @@ table {
   .colorsText{
       padding-top: 20px;
   }
+
+  .bbp{
+      text-align: center;
+  }
+
+  .colorsbbp{
+      width: 25px; 
+  }
+
+  .red{
+      color: red;
+  }
