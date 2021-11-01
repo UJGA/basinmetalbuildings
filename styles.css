@@ -134,3 +134,7 @@ table {
       padding-bottom: 20%;
       text-align: center;
   }
+
+  .subject{
+      color: red;
+  }
